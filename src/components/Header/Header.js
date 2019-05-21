@@ -6,10 +6,10 @@ class Header extends Component{
   render(){
     return(
       <div className='Header_container'>
-
+        <div className='Header_buttons'>
         <Link
           
-          to='/home'>
+          to='/'>
           Home
         </Link>
         <Link
@@ -27,7 +27,7 @@ class Header extends Component{
           to='/contact-me'>
           Contact Me     
         </Link>
-      
+        </div>
       </div>
     )
   }

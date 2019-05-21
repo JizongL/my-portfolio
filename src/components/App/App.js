@@ -5,6 +5,7 @@ import Header from '../Header/Header'
 import LandingPage from '../../route/LandingPage/LandingPage'
 import Portfolio from '../../route/Portfolio/Portfolio'
 import Footer from '../Footer/Footer'
+import AboutMe from '../../route/AboutMe/AboutMe'
 
 function App() {
   return (
@@ -24,6 +25,13 @@ function App() {
               
               path={'/portfolio'}
               component={Portfolio}
+          >              
+          </Route>
+
+          <Route
+              
+              path={'/about'}
+              component={AboutMe}
           >              
           </Route>
         
