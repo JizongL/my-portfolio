@@ -23,7 +23,6 @@ class AboutMe extends Component{
           <p className='AboutMe__text'>
             {aboutMe}
           </p>
-          <Particle/>
       </div>
     )
   }
