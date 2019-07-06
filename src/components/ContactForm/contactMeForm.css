@@ -1,0 +1,9 @@
+label{
+  color:white;
+}
+
+.contact_form{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}

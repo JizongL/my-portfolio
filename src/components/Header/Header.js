@@ -24,7 +24,7 @@ class Header extends Component{
         </Link>
         <Link
           
-          to='/contact-me'>
+          to='/contact'>
           Contact Me     
         </Link>
         </div>

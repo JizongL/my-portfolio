@@ -12,7 +12,11 @@ export default () => (
 	            "density": {
 	                "enable": false
 	            }
-	        },
+			},"color":{"value":"#bfbdbd"},
+			"shape":{
+				"type":"circle","stroke":{
+					"width":0,"color":"#bfbdbd"}
+				},
 	        "size": {
 	            "value": 10,
 	            "random": true,

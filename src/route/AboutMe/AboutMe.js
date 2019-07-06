@@ -1,7 +1,7 @@
 import React,{Component} from 'react'
 import './AboutMe.css'
-import selfie from '../../assets/selfie.jpeg'
-import Particle from '../../components/Particle/Particle'
+import selfie from '../../assets/portfolio-profile.JPG'
+// import Particle from '../../components/Particle/Particle'
 
 class AboutMe extends Component{
   render(){

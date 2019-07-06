@@ -1,0 +1,7 @@
+.contact_me_container{
+  background-color: black;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

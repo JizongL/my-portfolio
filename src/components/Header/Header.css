@@ -1,5 +1,5 @@
 .Header_container{
-  background-color: black;
+  background-color:white;
   display: flex;  
   float:right;
   
@@ -11,9 +11,9 @@
   font-size:20px;
   margin-bottom:25px;
   padding:0.35em 1.2em;
-  border:0.1em solid #FFFFFF;
+  border:0.1em solid black;
   font-family:'Roboto',sans-serif;
-  color:white;
+  color:black;
   padding:5px;
   text-decoration: none;
 }
