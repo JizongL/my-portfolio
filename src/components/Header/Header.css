@@ -9,12 +9,14 @@
 
 .Header_buttons a{
   font-size:20px;
-  margin-bottom:25px;
+  
   padding:0.35em 1.2em;
-  border:0.1em solid black;
+  /* border:0.1em solid black; */
+  background-color:gray;
   font-family:'Roboto',sans-serif;
-  color:black;
-  padding:5px;
+  color:white;
+  /* padding:5px; */
+  margin:3px 8px;
   text-decoration: none;
 }
 

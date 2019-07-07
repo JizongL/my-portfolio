@@ -4,8 +4,28 @@
   font-family: 'Anton', sans-serif;
 }
 
+
+
 .LandingPage_Container{
   display:flex;
-  justify-content: center;
+  flex-direction: column;
+  
   margin:250px auto;    
+}
+
+.LandingPage__welcome{
+  font-size: 600%;
+  animation-name: head;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+#text_2{
+  animation-delay: 1s;
+}
+
+@keyframes head {
+  0% {font-size:600%; opacity:1;}
+  50% {font-size:0; opacity:0;}
+  100% {font-size:600%;opacity:1;}
 }

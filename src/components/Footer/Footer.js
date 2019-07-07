@@ -9,7 +9,7 @@ export default class Footer extends Component{
   render(){
     return(
       <div className='footer'>
-      <span id='author'>Created by JizongL</span>
+      
         <div className='social_icon_group'>
        
        <a href='https://github.com/JizongL'>               

@@ -1,5 +1,12 @@
-.Portfolio_Container{
+.portfolio_Container{
+  display:flex;
+  flex-direction: column;
+  
   color:white;
   background-color:white;
-  height:75vh;
+  height:95vh;
+}
+
+.carousel_container{
+  margin: 20px 30px;
 }

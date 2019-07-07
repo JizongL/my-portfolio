@@ -7,11 +7,16 @@ export default class LandingPage extends Component{
     return(
       <div className='LandingPage_Container'>
         
-        <div className='LandingPage__welcome'>
+        <div className='LandingPage__welcome' id='text_1'>
           
-            Welcome To Jizong's Portfolio
+            Welcome To My Portfolio
           
         </div>
+        <div className='LandingPage__welcome' id='text_2'>
+          
+          I value your time and always at your service
+        
+      </div>
         <Particle/>
       </div>
     )
