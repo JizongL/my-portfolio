@@ -8,13 +8,14 @@ import Footer from '../Footer/Footer'
 import AboutMe from '../../route/AboutMe/AboutMe'
 import ContactMe from '../../route/ContactMe/ContactMe'
 import Project_1 from '../../route/projects/project_1'
+import Project_2 from '../../route/projects/project_2'
 
 function App() {
   return (
     <div className="App">
       <nav className='App__header'>
         <div className='logo'>
-          DSL Design
+          David's Portfolio
         </div>
         <Header/>
       </nav>
@@ -49,7 +50,10 @@ function App() {
               path={'/project_1'}
               component={Project_1}
           ></Route>
-        
+          <Route 
+              path={'/project_2'}
+              component={Project_2}>
+          </Route>      
         </Switch>        
       </main>
     <div className='footer'>

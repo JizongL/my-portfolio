@@ -11,6 +11,11 @@
   pointer-events: none;
 }
 
+.logo{
+  margin:auto 10px;
+  font-size:30px;
+}
+
 main{
   flex: 1;
   background-color:white;

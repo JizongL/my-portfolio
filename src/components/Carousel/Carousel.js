@@ -21,14 +21,14 @@ class DemoCarousel extends Component{
       
     </div>
    <div className='app_demo_img'>
-   <a className='test_link' href='https://github.com/thinkful-ei-bee/EastCoast-Team-Project-Client' target="_blank" rel="noopener noreferrer">
+   <a className='test_link' href='https://github.com/JizongL/stressTrac-client' target="_blank" rel="noopener noreferrer">
       <FontAwesomeIcon className='icon_carousel' icon={['fas', 'info-circle']} />
       </a>
         <img src={landing_strestrac} alt='strestrac'/>
      
-      <a href='https://jizong-strestrac-app.now.sh/home' target="_blank" rel="noopener noreferrer">
+      <Link to='/project_2'>
       <p className='legend'>Strestrac App</p>
-      </a> 
+      </Link>
     </div>
      {/* 
     <div className='rendezvous_app_demo'>

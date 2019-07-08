@@ -5,11 +5,7 @@
   margin:15px;  
 }
 
-.logo{
-  margin:25px;
-  font-family: 'Luckiest Guy', cursive;
-  font-size:25px;
-}
+
 .App__header{
   display:flex;
   flex-direction: row;

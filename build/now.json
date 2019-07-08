@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "name": "david_portfolio",
-  "alias": "david_portfolio",
+  "name": "david-portfolio",
+  "alias": "david-portfolio",
   "routes": [
     {
       "src": "^/static/(.*)",

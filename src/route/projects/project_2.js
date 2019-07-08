@@ -1,39 +1,39 @@
 import React,{Component} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './project_1.css'
-import a_1 from '../../assets/project_1/a-1.png'
-import a_2 from '../../assets/project_1/a-2.png'
-import a_3 from '../../assets/project_1/a-3.png'
-import a_4 from '../../assets/project_1/a-4.png'
-import a_5 from '../../assets/project_1/a-5.png'
-import a_6 from '../../assets/project_1/a-6.png'
-import a_7 from '../../assets/project_1/a-7.png'
-import b_1 from '../../assets/project_1/b-1.png'
-import b_2 from '../../assets/project_1/b-2.png'
-import b_3 from '../../assets/project_1/b-3.png'
-export default class Project_1 extends Component{
+import './project_2.css'
+import a_1 from '../../assets/project_2/a-1.png'
+import a_2 from '../../assets/project_2/a-2.png'
+import a_3 from '../../assets/project_2/a-3.png'
+import a_4 from '../../assets/project_2/a-4.png'
+import a_5 from '../../assets/project_2/a-5.png'
+import a_6 from '../../assets/project_2/a-6.png'
+import a_7 from '../../assets/project_2/a-7.png'
+import b_1 from '../../assets/project_2/b-1.png'
+import b_2 from '../../assets/project_2/b-2.png'
+import b_3 from '../../assets/project_2/b-3.png'
+export default class Project_2 extends Component{
   render(){
     return(
       
         <div className='project_container'> 
           <div className='project_title'>
-            Rendezvous Dating App
+            StresTrac App
           </div>
           <div className='project_description'>
-          Rendezvous is a web app that let singles meet their perfect mate by eventifying 
-          their dating experience! My team and I found that many dating apps are connecting 
-          people without helping them knowing each other, thus often result in bad first date
-          experiences. 
+          StreSTrac is an experimental React application that allows user to document their
+           stress events, with the goal of helping users to understand their stress pattern 
+           and thus control it. It came as an inspiration tracing back to my memory where I 
+           suffered anxiety and stress and panic attacks during my college years.
           <br/>
           <br/>
-          Here you can create events and send to your potential dates,and if they are interested 
-          in your offer and accept your dates, then you are matched and
-          can connect. Welcome to checkout <a href='https://rendezvous-app.now.sh/landingPage' target="_blank" rel="noopener noreferrer">Rendevous here</a> and
-          its client <a href='https://github.com/thinkful-ei-bee/EastCoast-Team-Project-Client' target="_blank" rel="noopener noreferrer">Github here</a>
+          Here in StresTrac you can journal your stress by creatin stress events and and assign
+           score to different stress factors. In time, you can view charts that indicate your 
+           stress patterns. Welcome to checkout <a href='https://stress-tracker-app.2015rpro.now.sh/home' target="_blank" rel="noopener noreferrer">Rendevous here</a> and
+          its client <a href='https://github.com/JizongL/stressTrac-client' target="_blank" rel="noopener noreferrer">Github here</a>
           </div>
           <div className='project_tech_list'>
             <span>
-            Rendezvous is built with Node, Express, PostgreSQL, React
+            StresTrac is built with Node, Express, PostgreSQL, React
             </span>  
           <div className='tech_icons'> 
             <FontAwesomeIcon className='icon_project_1' icon={['fab', 'react']} />
