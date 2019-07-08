@@ -7,6 +7,7 @@ import Portfolio from '../../route/Portfolio/Portfolio'
 import Footer from '../Footer/Footer'
 import AboutMe from '../../route/AboutMe/AboutMe'
 import ContactMe from '../../route/ContactMe/ContactMe'
+import Project_1 from '../../route/projects/project_1'
 
 function App() {
   return (
@@ -44,6 +45,10 @@ function App() {
               component={ContactMe}
           >              
           </Route>
+          <Route
+              path={'/project_1'}
+              component={Project_1}
+          ></Route>
         
         </Switch>        
       </main>

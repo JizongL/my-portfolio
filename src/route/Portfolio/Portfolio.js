@@ -8,7 +8,7 @@ export default class Portfolio extends Component{
     return(
       
         <div className='portfolio_Container'> 
-          <div className='carousel_container'>       
+          <div className='carousel_container' aria-label="portfolio">       
             <DemoCarousel/>
           </div>
         </div>

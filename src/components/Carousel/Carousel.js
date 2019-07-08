@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import {Carousel} from 'react-responsive-carousel';
+import {Link} from 'react-router-dom'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import rendezvous_landing from '../../assets/landing_rendezvous.png'
 import landing_strestrac from '../../assets/landing_strestrac.png'
@@ -14,9 +15,10 @@ class DemoCarousel extends Component{
       <FontAwesomeIcon className='icon_carousel' icon={['fas', 'info-circle']} />
       </a>
       <img src={rendezvous_landing} alt='landing_rendezvous'/>
-      <a href='https://rendezvous-app.now.sh/landingPage'target="_blank" rel="noopener noreferrer">
+      <Link to='/project_1'>
       <p className='legend'>Rendezvous Dating App</p>
-      </a>  
+      </Link>
+      
     </div>
    <div className='app_demo_img'>
    <a className='test_link' href='https://github.com/thinkful-ei-bee/EastCoast-Team-Project-Client' target="_blank" rel="noopener noreferrer">

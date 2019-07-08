@@ -1,0 +1,20 @@
+.after_submit_container{
+  background-color:black;
+  color:white;
+  height:70vh;
+}
+.icon_after_submit{  
+  width:40px !important;
+  height:40px;
+  color:white;
+  margin:auto auto;
+  border-radius:100%;  
+  text-align:right;  
+  list-style:none;
+}
+
+.thank_you_message{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}

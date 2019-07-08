@@ -1,6 +1,11 @@
 import React,{Component} from 'react'
 import './contactMeForm.css'
 class ContactMeForm extends Component{
+  
+  static defaultProps ={
+    onDirect:()=>{}
+    }
+  
   state={
     error:null
   }
@@ -21,7 +26,10 @@ class ContactMeForm extends Component{
       headers:{'content-type':'application/json'},
       body: JSON.stringify(newSubmit),
       dataType: "json"}
-    )   
+    )
+    .then(res=>{
+      this.props.onDirect()
+    })   
   }
   
   render(){

@@ -3,17 +3,17 @@ import './AboutMe.css'
 import selfie from '../../assets/portfolio-profile.JPG'
 // import Particle from '../../components/Particle/Particle'
 
+
+
 class AboutMe extends Component{
   render(){
-    const aboutMe = `Hi, I'm JSL. I'm a fullstack developer & UI/UX 
-    enthusiast I am a web developer and recent graduate of the Engineer
-    Immersion bootcamp at Thinkful. I love solving problems and thinking
-     for design, it's very rewarding to see hard work becomes artwork. My
-      speciality is in JS, Python, Node.JS, React, and MongoDB. I can manage
-       frontend and backend to work seamlessly together.When I am not coding,
-       I spend time learning the Blockchain Technology and its future and I 
-       practice my Math for fun. Outside the tech, I also enjoy volunteering, 
-       drawing and playing the piano. Also,I cook amazing Asian food.`
+    const aboutMe = `I am a Full Stack Developer, I work with JS, HTML, CSS, React, Redux,
+     Node.js, PostgreSQL, mongoDB and python. I have a background in Data Science and Math 
+     and a passion for Blockchain Technology, outside coding I am also an artist(checkout my work). 
+     Given my thirst for knowledge, I find the continuously changing world of programming alluring. 
+     I am seeking an opportunity where I can work with a great team and combine my love for 
+     technology, art and research with my strong interpersonal skills in order to make amazing things
+      happen.`
   
     return(
       <div className='AboutMe_container'>
