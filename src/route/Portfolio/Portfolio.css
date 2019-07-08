@@ -1,12 +1,20 @@
 .portfolio_Container{
   display:flex;
   flex-direction: column;
-  
   color:white;
-  background-color:white;
-  height:95vh;
+  background-color:black;
+  height:75vh;
 }
 
-.carousel_container{
-  margin: 20px 30px;
+.carousel_container{  
+  margin: 55px 480px;
+}
+
+@media (max-width:600px){
+  .carousel_container{  
+    margin: 40px 20px;
+  } 
+  .portfolio_Container{
+    height:45vh;
+  }
 }

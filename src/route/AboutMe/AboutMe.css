@@ -9,6 +9,7 @@
   background-color: black;
   min-height: 70vh;
   display: flex;
+  
   flex-direction: column;
   justify-content: center;
 }
@@ -27,4 +28,24 @@
   text-align: center;
   margin:20px auto;
   background-color:black;
+}
+
+@media(max-width:600px){
+  .AboutMe__text{
+    margin:10px 20px;
+  }
+
+  .AboutMe_container{
+    padding:10px;
+  }
+
+  .AboutMe__selfie{
+    width:25%;
+  }
+
+  .AboutMe_selfie_container{  
+    text-align: center;
+    margin:35px auto;
+    background-color:black;
+  }
 }

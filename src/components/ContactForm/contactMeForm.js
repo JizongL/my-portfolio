@@ -7,8 +7,21 @@ class ContactMeForm extends Component{
 
   handleSubmit=ev=>{
     ev.preventDefault()
-    // const {contact_name,contact_email,contact_message} = ev.target;
-    
+    const {contact_name,contact_email,contact_message} = ev.target;
+    const newSubmit = {
+      name:contact_name.value,
+      email:contact_email.value,
+      message:contact_message.value
+    }   
+       
+    // use formspree api to handle email redirect
+    fetch( "https://formspree.io/mbqpzvdx",
+    {
+      method: "POST",
+      headers:{'content-type':'application/json'},
+      body: JSON.stringify(newSubmit),
+      dataType: "json"}
+    )   
   }
   
   render(){

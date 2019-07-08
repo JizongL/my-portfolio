@@ -11,9 +11,12 @@ import ContactMe from '../../route/ContactMe/ContactMe'
 function App() {
   return (
     <div className="App">
-      <header className='App__header'>
+      <nav className='App__header'>
+        <div className='logo'>
+          DSL Design
+        </div>
         <Header/>
-      </header>
+      </nav>
       <main className='App__main'>
         <Switch>
           <Route

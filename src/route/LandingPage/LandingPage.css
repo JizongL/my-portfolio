@@ -1,6 +1,6 @@
 .LandingPage__welcome{
   font-size: 70px;
-  color:black;
+  color:white;
   font-family: 'Anton', sans-serif;
 }
 
@@ -8,24 +8,18 @@
 
 .LandingPage_Container{
   display:flex;
-  flex-direction: column;
-  
+  justify-content: center;  
   margin:250px auto;    
+  background-color:black;
+  padding:100px;
 }
 
+
+@media(max-width:600%){
 .LandingPage__welcome{
-  font-size: 600%;
-  animation-name: head;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
+  font-size:20px;
 }
-
-#text_2{
-  animation-delay: 1s;
+.LandingPage_Container{
+  margin:10px auto;
 }
-
-@keyframes head {
-  0% {font-size:600%; opacity:1;}
-  50% {font-size:0; opacity:0;}
-  100% {font-size:600%;opacity:1;}
 }
