@@ -25,3 +25,10 @@
   text-align:right;  
   list-style:none;
 }
+
+@media(max-width:600px){
+  .test_link{
+   
+    margin: 5px 30px;
+  }
+}
