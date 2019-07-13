@@ -1,5 +1,5 @@
 label{
-  color:white;
+  color:gray;
 }
 
 
@@ -42,6 +42,10 @@ textarea {
   text-align:center;  
 }
 
+.message{
+  color:gray;
+}
+
 @media(max-width:600px){
   .contact_form_container{
     margin:auto auto;
@@ -49,8 +53,10 @@ textarea {
 
   .contact_form{
     width:100%;
-    
+    margin:30px auto;
   }
+
+
 
   textarea {
     width: 100%;

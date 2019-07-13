@@ -15,6 +15,40 @@
     margin: 40px 5px;
   } 
   .portfolio_Container{
-    height:45vh;
+    height:50vh;
+  }
+}
+
+@media (max-width:370px){
+  .carousel_container{  
+    margin: auto 5px;
+  } 
+  .portfolio_Container{
+    height:40vh;
+  }
+}
+
+
+@media(max-width:1024px){
+  .carousel_container{  
+    margin: auto 200px;
+  }
+  .portfolio_Container{
+    height:90vh;
+  }
+}
+
+@media(max-height:768px){
+  .portfolio_Container{
+    height:50vh;
+  }
+}
+
+@media(max-width:768px){
+  .carousel_container{  
+    margin: auto 20px;
+  }
+  .portfolio_Container{
+    height:40vh;
   }
 }

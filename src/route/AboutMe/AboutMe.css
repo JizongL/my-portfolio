@@ -1,6 +1,7 @@
 .AboutMe__text{
-  font-size: 20px;
-
+  
+  Font-Family: 'Lato', Sans-Serif;
+  Font-Size: 20px;
   color:gray;
   margin:50px 300px;
 }
@@ -15,7 +16,7 @@
 }
 
 .AboutMe__selfie{
-  width:15%;
+  width:25%;
   border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
@@ -33,19 +34,21 @@
 @media(max-width:600px){
   .AboutMe__text{
     margin:10px 20px;
+    font-size: 15px;
   }
 
   .AboutMe_container{
     padding:10px;
+    height:90vh;
   }
 
   .AboutMe__selfie{
-    width:25%;
+    width:35%;
   }
 
   .AboutMe_selfie_container{  
     text-align: center;
-    margin:35px auto;
+    margin:25px auto;
     background-color:black;
   }
 }

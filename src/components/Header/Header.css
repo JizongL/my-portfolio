@@ -5,7 +5,11 @@
   margin:15px;  
 }
 
-
+.logo{
+  margin:auto 0px;
+  margin-left:10px;
+  font-size:30px;
+}
 .App__header{
   display:flex;
   flex-direction: row;
@@ -49,21 +53,26 @@
     flex-direction: column;
     width:100%;
   }
-  .Header a{
-    width:100%;
-    padding:0px;
-    text-align: center;
-  }
+  
   .Header__not-logged-in{
     flex-direction: column;
+  }
+
+  .Header_buttons a{
+    font-size:18px;
   }
 
   .Header_buttons{
     display: flex;
     flex-direction: column;
     
-    font-size:20px;
+    font-size:10px;
     font-family:'Roboto',sans-serif;
+  }
+
+  .logo{
+    margin:auto auto;
+    font-size:25px;
   }
 
 }
