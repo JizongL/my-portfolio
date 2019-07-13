@@ -28,7 +28,7 @@ export default class Project_2 extends Component{
           <br/>
           Here in StresTrac you can journal your stress by creatin stress events and and assign
            score to different stress factors. In time, you can view charts that indicate your 
-           stress patterns. Welcome to checkout <a href='https://stress-tracker-app.2015rpro.now.sh/home' target="_blank" rel="noopener noreferrer">Rendevous here</a> and
+           stress patterns. Welcome to checkout <a href='https://stress-tracker-app.2015rpro.now.sh/home' target="_blank" rel="noopener noreferrer">StreStrac here</a> and
           its client <a href='https://github.com/JizongL/stressTrac-client' target="_blank" rel="noopener noreferrer">Github here</a>
           </div>
           <div className='project_tech_list'>

@@ -13,7 +13,7 @@ export default class Project_3 extends Component{
       
         <div className='project_container'> 
           <div className='project_title'>
-            StresTrac App
+            Space Repetition App
           </div>
           <div className='project_description'>
           Space Repetition is a project that allows users to practice their language skill. The default language pair is 
@@ -23,7 +23,7 @@ export default class Project_3 extends Component{
 
           <br/>
           <br/>
-          Welcome to checkout <a href='https://space-repetition-app-jkk8z1vcn.now.sh/register' target="_blank" rel="noopener noreferrer">Rendevous here</a> and
+          Welcome to checkout <a href='https://space-repetition-app-jkk8z1vcn.now.sh/register' target="_blank" rel="noopener noreferrer">Space Repetition here</a> and
           its client <a href='https://github.com/JizongL/spaceRepetitionClient' target="_blank" rel="noopener noreferrer">Github here</a>
           </div>
           <div className='project_tech_list'>
