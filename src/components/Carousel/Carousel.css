@@ -9,12 +9,15 @@
 .test_link{
   float:right;
   margin: 5px auto;
+  color:white;
 }
 
 .test_link:hover{
   opacity: 1;
 }
-
+.intro{
+  color:white;
+}
 .icon_carousel{  
   width:20px !important;
   height:20px;

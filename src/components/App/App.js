@@ -9,6 +9,7 @@ import AboutMe from '../../route/AboutMe/AboutMe'
 import ContactMe from '../../route/ContactMe/ContactMe'
 import Project_1 from '../../route/projects/project_1'
 import Project_2 from '../../route/projects/project_2'
+import Project_3 from '../../route/projects/project_3'
 
 function App() {
   return (
@@ -53,6 +54,10 @@ function App() {
           <Route 
               path={'/project_2'}
               component={Project_2}>
+          </Route>      
+          <Route 
+              path={'/project_3'}
+              component={Project_3}>
           </Route>      
         </Switch>        
       </main>
