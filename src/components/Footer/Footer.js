@@ -12,17 +12,17 @@ export default class Footer extends Component{
       
         <div className='social_icon_group'>
        
-       <a href='https://github.com/JizongL'aria-label="github_icon">               
+       <a href='https://github.com/JizongL'aria-label="github_icon" target="_blank" rel="noopener noreferrer">               
          <FontAwesomeIcon className='social_icon' icon={['fab', 'github']} />       
        </a>
        
-       <a href='https://www.linkedin.com/in/d-liang/'aria-label="linkedin_icon">
+       <a href='https://www.linkedin.com/in/d-liang/'aria-label="linkedin_icon"  target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon className='social_icon' icon={['fab', 'linkedin']} />
         </a>
-        <a href='https://medium.com/@jizongliang' aria-label="medium_icon">
+        <a href='https://medium.com/@jizongliang' aria-label="medium_icon" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon className='social_icon' icon={['fab', 'medium']} />
         </a>
-        <a href='https://twitter.com/TmmGeek' aria-label="twitter_icon">
+        <a href='https://twitter.com/TmmGeek' aria-label="twitter_icon" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon className='social_icon' icon={['fab', 'twitter']} />
         </a>
         </div>

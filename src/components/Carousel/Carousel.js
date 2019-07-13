@@ -9,7 +9,7 @@ import '../Carousel/Carousel.css'
 class DemoCarousel extends Component{
   render(){
     return(
-      <Carousel interval={5000} autoPlay  infiniteLoop showThumbs={false} showStatus={false}>
+      <Carousel interval={5000} autoPlay  infiniteLoop showThumbs={true} showStatus={false}>
     <div className='app_demo_img'>
       <a className='test_link' href='https://github.com/thinkful-ei-bee/EastCoast-Team-Project-Client' target="_blank" rel="noopener noreferrer">
       <FontAwesomeIcon className='icon_carousel' icon={['fas', 'info-circle']} />
