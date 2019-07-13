@@ -2,7 +2,7 @@ import React,{Component} from 'react'
 import './LandingPage.css'
 import TextLoop from 'react-text-loop'
 import Particle from '../../components/Particle/Particle'
-//import ParticleComponent from "../../ParticleComponent";
+
 export default class LandingPage extends Component{
   render(){
     return(

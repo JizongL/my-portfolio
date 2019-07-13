@@ -28,7 +28,7 @@ export default class Project_3 extends Component{
           </div>
           <div className='project_tech_list'>
             <span>
-            StresTrac is built with Node, Express, PostgreSQL, React
+            Space Repetition is built with Node, Express, PostgreSQL, React
             </span>  
           <div className='tech_icons'> 
             <FontAwesomeIcon className='icon_project_1' icon={['fab', 'react']} />
